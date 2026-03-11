@@ -1,0 +1,75 @@
+# =====================
+# Node.js / App files
+# =====================
+
+# Node modules
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Logs
+**/*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# =====================
+# Docker files
+# =====================
+# Docker ignores are usually in .dockerignore, but if you want to be safe:
+**/.dockerignore
+
+
+# =====================
+# Terraform files
+# =====================
+# Local .terraform directories
+**/.terraform/
+
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+
+# Crash log files
+**/crash.log
+**/crash.*.log
+
+# Exclude all .tfvars files (sensitive data)
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore override files
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Ignore transient lock info files
+**/.terraform.tfstate.lock.info
+
+# Ignore CLI config
+.terraformrc
+terraform.rc
+
+# =====================
+# Node.js / App files
+# =====================
+# Node modules
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Logs
+**/*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore IDE files
+.vscode/
+.idea/
+
